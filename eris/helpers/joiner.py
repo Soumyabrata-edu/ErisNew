@@ -1,3 +1,5 @@
+import telethon
+import random
 from typing import *
 from eris import client, ASSISTANT_ID
 from telethon import *
@@ -6,8 +8,6 @@ from telethon.tl.types import PeerChannel,InputChannel
 from telethon.tl.functions.channels import *
 from telethon.tl.functions.channels import GetParticipantsRequest
 from telethon.tl.types import ChannelParticipantsSearch
-import telethon
-import random
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
