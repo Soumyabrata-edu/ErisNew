@@ -34,9 +34,9 @@ class Config(object):
     DEL_CMDS = True
     INFOPIC = True
     LOAD = []
-    NO_LOAD = ["special"]
+    NO_LOAD = []
     STRICT_GBAN = True
-    TEMP_DOWNLOAD_DIRECTORY = "./"
+    TEMP_DOWNLOAD_DIRECTORY = "./cache"
 
 class Production(Config):
     LOGGER = True
