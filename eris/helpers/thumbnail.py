@@ -42,7 +42,7 @@ async def gen_thumb(videoid):
     Image.alpha_composite(image5, image6).save(f"cache/temp{videoid}.png")
     img = Image.open(f"cache/temp{videoid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype('./eris/resources/default.ttf', 30)
+    font = ImageFont.truetype('./eris/resources/default.ttf', 60)
     draw.text(
         (25, 609),
         f"{title}",
