@@ -8,7 +8,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ff71658222634df0af91270fe40fc681)](https://www.codacy.com/gh/Soumyabrata-edu/Marie/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Soumyabrata-edu/Marie&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ff71658222634df0af91270fe40fc681)][![Codacy Badge](https://app.codacy.com/project/badge/Grade/2344114c48e543559ba1479516b9e5cf)](https://www.codacy.com/gh/Soumyabrata-edu/erisnew/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Soumyabrata-edu/erisnew&amp;utm_campaign=Badge_Grade)
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Eris's+Repo!;A+simple+group+modular+bot!;with+all+features!)
 
 An anime theme group manager with all features based on pyrogram and python Go Wrapper.
@@ -19,16 +19,7 @@ Can be found on telegram as [Eris](https://t.me/ErisRobot_bot).
 
 The only way to deploy bot is through a VPS.
 
-Steps are: <br>
-
-<ol>
-   <li><pre><code>git clone https://github.com/Soumyabrata-eng/Destiny</code></pre></li>
-   <li><pre><code>cd DestinyBot</code></pre></li>
-   :warning: **Please then update the vars by config.py file**
-   <br>
-   <li><pre><code>pip install -r requirements.txt</code></pre></li>
-   <li><pre><code>python -m DestinyBot</code></pre></li>
-</ol>
+<a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FSoumyabrata-edu%2Ferisnew"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 ## Credits
 The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars). <br>
