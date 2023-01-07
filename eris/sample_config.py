@@ -16,7 +16,7 @@ class Config(object):
     SUPPORT_CHAT = "bloggerminds" 
     TOKEN = ""  # Get bot token from @BotFather on Telegram
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
-    OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
+    OWNER_ID = 5480870128  # User id of your telegram account (Must be integer)
     WEATHER_API = "" # Get this from https://openweathermap.org/api.php
     SPAMWATCH_API = None
 
