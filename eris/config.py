@@ -8,7 +8,7 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     API_ID = 25674865
-    STRING_SESSION = "1BVtsOMEBuzmTenWDK9tmMhdfcrgFZKIzkp0J2wsh8qcw9JD2EvSxMs1O3-HhMnGZu1ayhrigpwV53haKSi9AcCDDFGoh99uguJRP8o2ZEtxa_f_fdk-UBbYYAqQzfhoh00fBsBX5oMf3Xnd0bbWliR-S9vxuinirnbQa2FLDJvjmfiGUleXKt1Vrume1QPlA4Yj24hSFrJfPDUwOKFGeiNs5IftVm2LUnpqFAhw-A8XYIzxGCeed1hH8ZcSViFxO-AKc9MBt0E5jMvdWuTboR_KjnWQIqsZtHUhuSkCVaf6xdqSmZYHXVNavVFaCNnKsFjt2RuvzvWncC_kSTA583C1fjgHKAIQ="
+    STRING_SESSION = "1BVtsOKkBuyfi5pTFrK1pFfRBVSaHOl5F2277HQSVWwsC-Nuk50aiaMJl-AWx9tbVpcFeqD9bLJkpYJ55CrNKocWj9HR8M-kQ75fcfQV2afCOg02PtW48IbHA9HZAgFShigA2OIMyFVfuSAbe-6EUK7_0wKGseoI4Kft5n2fPW5aPPWxk_2HW5Tj5gbBh5Z9XQw9jZbbwpCaZ65eqnsbeMXPQ5CnE9r8gmEd0OhcC1vlJ0r2cLueL_snsUvLV4bV_wa7wLtJ2H45evDtXv5y1hgFIAqibjuJsTOJ7mQSH_aBXflgfUF9_6NwYArb0mAXwGvTwb6RjS_xlZkHJtS_PVrIsEZnsmAM="
     API_HASH = "9d652fa93edd9fed18ed6bae41919f12"
     CASH_API_KEY = "V7NS1NBFEL4X24L6"
     DATABASE_URL = "postgresql://cevvmtjl:2LeJJUSH8QttXem2wklIVfFgxxvSyDv-@hattie.db.elephantsql.com/cevvmtjl"
