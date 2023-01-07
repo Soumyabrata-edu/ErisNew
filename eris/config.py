@@ -14,7 +14,7 @@ class Config(object):
     DATABASE_URL = "postgresql://cevvmtjl:2LeJJUSH8QttXem2wklIVfFgxxvSyDv-@hattie.db.elephantsql.com/cevvmtjl"
     EVENT_LOGS = (-1001451724150)
     SUPPORT_CHAT = "bloggerminds" 
-    TOKEN = "5334073790:AAFJbxGqno6AtqjG5_ZJAjibjTERBTeAM6M"
+    TOKEN = "5334073790:AAGf4OGhRuZ5g7CPqK9mysedFwjIeCpOJlI"
     TIME_API_KEY = "2AS711XS1O9B"
     OWNER_ID = 1356469075 
     ASSISTANT_ID = 5480870128
