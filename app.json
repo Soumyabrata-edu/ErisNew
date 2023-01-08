@@ -93,7 +93,7 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter",
          "value": "-xyz",
-         "required" : false,
+         "required" : false
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
