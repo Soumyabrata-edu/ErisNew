@@ -57,20 +57,23 @@
       },
       "SUPPORT_CHAT": {
          "description": "Without @",
-         "value": "ANYTHING"
+         "value": "ANYTHING",
+         "required" : false
       },
       "DATABASE_URL": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
+         "required": true,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "792109647"
+         "value": "792109647",
+         "required" : true
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "SubhraChatterjee"
+         "value": "SubhraChatterjee", 
+         "required" : true
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
@@ -84,19 +87,23 @@
       },
       "EVENT_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "-123",
+         "required" : false
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
-         "value": "-xyz"
+         "value": "-xyz",
+         "required" : false,
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
-         "value": "-xyz"
+         "value": "-xyz",
+         "required" : false
       },
       "WEATHER_API": {
          "description": "Required for weather information",
-         "value": "-xyz"
+         "value": "-xyz",
+         "required" : false
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
