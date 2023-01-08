@@ -34,7 +34,7 @@ class Config(object):
     DEL_CMDS = True
     INFOPIC = True
     LOAD = []
-    NO_LOAD = []
+    NO_LOAD = ["Music"]
     STRICT_GBAN = True
     TEMP_DOWNLOAD_DIRECTORY = "./cache"
 
