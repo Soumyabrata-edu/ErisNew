@@ -1,5 +1,6 @@
 import json
 import os
+## Config file
 
 def get_user_list(config, key):
     with open("{}/eris/{}".format(os.getcwd(), config), "r") as json_file:
@@ -34,7 +35,7 @@ class Config(object):
     DEL_CMDS = True
     INFOPIC = True
     LOAD = []
-    NO_LOAD = ["Music"]
+    NO_LOAD = ["musictools"]
     STRICT_GBAN = True
     TEMP_DOWNLOAD_DIRECTORY = "./cache"
 
