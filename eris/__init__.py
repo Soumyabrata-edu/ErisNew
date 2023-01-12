@@ -157,6 +157,7 @@ aiohttpsession = ClientSession()
 
 # Initialize bots
 pbot = Client("eris", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+"""
 mbot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 call_py = PyTgCalls(mbot)
 client = mbot
@@ -168,6 +169,7 @@ try:
 except BaseException:
     LOGGER.error("WARNING ⚠️ ! STRING_SESSION is missing.")
     sys.exit(1)
+"""
 
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
