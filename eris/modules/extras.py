@@ -22,6 +22,8 @@ auth_url = r["auth_url"]
 
 @register(pattern="^/tg(m|t) ?(.*)")
 async def _(event):
+    from datetime import datetime
+    
     if event.fwd_from:
         return
     optional_title = event.pattern_match.group(2)
