@@ -1,5 +1,4 @@
-import os, requests, json, wikipedia, random
-from datetime import datetime
+import os, requests, json, wikipedia, datetime, random
 from eris.events import register
 from eris.modules.disable import DisableAbleCommandHandler
 from eris import telethn as tbot
