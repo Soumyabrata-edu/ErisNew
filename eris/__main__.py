@@ -126,7 +126,7 @@ buttons = [
         InlineKeyboardButton(text="『 ➕ Add Me to your Group! 』",url="https://telegram.dog/ErisRobot_bot?startgroup=true")
      ],
      [
-        InlineKeyboardButton(text="『 Help 』", url="https://telegram.dog/ErisRobot_bot?start=help"),
+        InlineKeyboardButton(text="『 Help 』", callback_data="help_back"),
         InlineKeyboardButton(text="『 Support 』",url="https://t.me/{}".format(SUPPORT_CHAT)),
      ]
  ]
