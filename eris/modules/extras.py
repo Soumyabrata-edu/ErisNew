@@ -292,7 +292,11 @@ def generate_time(to_find: str, findtype: List[str]) -> str:
                 country_zone = zone["zoneName"]
                 country_code = zone["countryCode"]
 
-                daylight_saving = "Yes" if zone["dst"] == 1 else "No"
+                if zone["dst"] == 1:
+                    daylight_saving = "Yes"
+                else:
+                    daylight_saving = "No"
+
                 date_fmt = r"%d-%m-%Y"
                 time_fmt = r"%H:%M:%S"
                 day_fmt = r"%A"
@@ -321,6 +325,7 @@ def generate_time(to_find: str, findtype: List[str]) -> str:
         result = None
 
     return result
+
 
 def gettime(update: Update, context: CallbackContext):
     message = update.effective_message
@@ -352,7 +357,7 @@ def gettime(update: Update, context: CallbackContext):
     send_message.edit_text(
         result, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
-
+    
 UD_HANDLER = DisableAbleCommandHandler("ud", ud, pass_args=True)
 WALL_HANDLER = DisableAbleCommandHandler("wall", wall, pass_args=True)
 CONVERTER_HANDLER = DisableAbleCommandHandler('cash', cconvert, pass_args=True)
