@@ -1,4 +1,4 @@
-import os, requests, json, wikipedia, random, datetime
+import os, requests, json, wikipedia, random
 from datetime import datetime
 from eris.events import register
 from eris.modules.disable import DisableAbleCommandHandler
