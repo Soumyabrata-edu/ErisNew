@@ -11,7 +11,6 @@ from telegram.ext import CommandHandler, run_async, CallbackContext
 from eris import dispatcher, TIME_API_KEY, CASH_API_KEY, WEATHER_API
 from pytz import country_names as cname
 from pyrogram import filters
-from datetime import datetime
 from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 from eris import TEMP_DOWNLOAD_DIRECTORY
