@@ -15,6 +15,9 @@ An anime theme group manager with all features based on pyrogram and python Go W
 
 Can be found on telegram as [Eris](https://t.me/ErisRobot_bot).
 
+> **Note**
+> For music bot, kindly do the changes on <i>_init.py</i> and <i>sample_config.py</i> 
+
 ## Deploy
 
 The easiest way to deploy bot is through Heroku.
