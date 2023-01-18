@@ -18,6 +18,9 @@ Can be found on telegram as [Eris](https://t.me/ErisRobot_bot).
 > **Note**
 > For music bot, kindly do the changes on <i>_init.py</i> and <i>sample_config.py</i> 
 
+> **Release**
+> <a class='button' href='https://codeload.github.com/Soumyabrata-eng/erisnew/zip/refs/tags/eris'> Release </a>
+
 ## Deploy
 
 The easiest way to deploy bot is through Heroku.
