@@ -157,6 +157,9 @@ aiohttpsession = ClientSession()
 
 # Initialize bots
 pbot = Client("eris", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+
+# uncomment it for music bot.
+
 """
 mbot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 call_py = PyTgCalls(mbot)
