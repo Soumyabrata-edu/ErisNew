@@ -98,9 +98,9 @@ Konnichiwa, I am Eris.
 I am an advanced group management bot written in python pyrogram and telethon library.
 Well I hope you would be keen to meet me!
 
-✧ Uptime: 『 `{}` 』
-✧ Users Interacted: 『 `{}` 』
-✧ Total Chats: 『 `{}` 』
+✧ Uptime: `{}` 
+✧ Users Interacted: `{}` 
+✧ Total Chats:  `{}` 
 
 Run the /help command or use inline help.
 """
@@ -119,15 +119,15 @@ the things I can help you with.
 And the following:
 """
 
-BOT_IMG = "https://graph.org/file/53d7c9edb25beb857040d.png"
+BOT_IMG = "http://tiny.cc/erisnew"
 
 buttons = [
      [
-        InlineKeyboardButton(text="『 ➕ Add Me to your Group! 』",url="https://telegram.dog/ErisRobot_bot?startgroup=true")
+        InlineKeyboardButton(text="➕ Add Me to your Group! ",url="https://telegram.dog/ErisRobot_bot?startgroup=true")
      ],
      [
-        InlineKeyboardButton(text="『 Help 』", url="https://telegram.dog/ErisRobot_bot?start=help"), #Callback can be used
-        InlineKeyboardButton(text="『 Support 』",url="https://t.me/{}".format(SUPPORT_CHAT)),
+        InlineKeyboardButton(text="Help", url="https://telegram.dog/ErisRobot_bot?start=help"), #Callback can be used
+        InlineKeyboardButton(text="Support",url="https://t.me/{}".format(SUPPORT_CHAT)),
      ]
  ]
          
