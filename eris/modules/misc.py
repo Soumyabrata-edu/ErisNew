@@ -182,7 +182,8 @@ def info(update: Update, context: CallbackContext):
                 message.reply_text(
                         text, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
                 )
-        else:
+                
+        else:   # If the user ask /info in pm
             try:
                 profile = bot.get_user_profile_photos(user.id).photos[0][-1]
                 _file = bot.get_file(profile["file_id"])
@@ -191,7 +192,7 @@ def info(update: Update, context: CallbackContext):
                 _file.seek(0)
 
                 message.reply_photo(
-                        file,
+                        _file,
                         caption=text,
                         parse_mode=ParseMode.HTML,
                 )
