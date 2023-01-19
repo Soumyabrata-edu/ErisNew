@@ -104,6 +104,7 @@ Well I hope you would be keen to meet me!
 
 Run the /help command or use inline help.
 """
+
 HELP_STRINGS = """
 Hey there! My name is Eris.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
@@ -126,7 +127,6 @@ buttons = [
         InlineKeyboardButton(text="➕ Add Me to your Group! ",url="https://telegram.dog/ErisRobot_bot?startgroup=true")
      ],
      [
-        InlineKeyboardButton(text="Help", callback_data="help_back"),
         InlineKeyboardButton(text="Support",url="https://t.me/{}".format(SUPPORT_CHAT)),
      ]
  ]
@@ -136,7 +136,7 @@ donate_btn=  [
         InlineKeyboardButton(text="Buy me a coffee !",url=DONATION_LINK)
      ],
      [
-        InlineKeyboardButton(text="Razorpay",url="https://rzp.io/l/ATlUeSc"),
+        InlineKeyboardButton(text="Razorpay",url="https://tiny.cc/donateris"),
      ],
  ]
 
