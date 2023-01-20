@@ -554,11 +554,13 @@ def get_settings(update: Update, context: CallbackContext):
 
 
 def donate(update: Update, context: CallbackContext):
+    chat = update.effective_chat
     msg = update.effective_message
-    msg.reply_text( 
-    "Looks like you're interested in donating me? Please donate my creator instead.",
-     reply_markup=InlineKeyboardMarkup(donate_btn),
-     parse_mode=ParseMode.MARKDOWN)
+    if chat.type == chat.PRIVATE:
+           msg.reply_text("Looks like you're interested in donating me? Please donate my creator instead.", reply_markup=InlineKeyboardMarkup(donate_btn),
+           parse_mode=ParseMode.MARKDOWN)
+    else:
+           msg.reply_text(f" Hey I am free to use ! If you are likely interested in donating my servers, please donate here [.](https://www.paypal.com/paypalme/MadanMohanChatterjee) ")
 
 def migrate_chats(update: Update, context: CallbackContext):
     msg = update.effective_message  # type: Optional[Message]
