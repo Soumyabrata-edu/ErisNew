@@ -7,7 +7,7 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 from telethon.sessions import MemorySession, StringSession
-from pytgcalls import PyTgCalls
+# from pytgcalls import PyTgCalls
 
 StartTime = time.time()
 WORKERS = 8
