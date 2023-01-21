@@ -145,12 +145,25 @@ async def quotly(e):
             c.append(_id)
             if not media:
                 messages.append(
-                    {"entities": get_entites(_x),chatId": e.chat_id,"avatar": avatar,"from": _from,"text": _text,"replyMessage": _r}
+                    {
+                        "entities": get_entites(_x),
+                        "chatId": e.chat_id,
+                        "avatar": avatar,
+                        "from": _from,
+                        "text": _text,
+                        "replyMessage": _r,
+                    }
                 )
-
             elif media:
                 messages.append(
-                    {"chatId": e.chat_id,"avatar": avatar,"media": media,"mediaType": mediaType,"from": _from,"replyMessage": {}}
+                    {
+                        "chatId": e.chat_id,
+                        "avatar": avatar,
+                        "media": media,
+                        "mediaType": mediaType,
+                        "from": _from,
+                        "replyMessage": {},
+                    }
                 )
 
     post_data = {
