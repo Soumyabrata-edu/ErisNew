@@ -4,7 +4,7 @@ apscheduler
 bleach
 beautifulsoup4
 currencyconverter
-emoji
+emoji==1.7.0
 feedparser
 future
 jikanpy
