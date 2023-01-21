@@ -211,3 +211,13 @@ def get_entites(x):
             continue
         q.append({"type": type, "offset": y.offset, "length": y.length})
     return q
+
+_mod_name = 'Quotly'
+
+__help__ = """
+-> `/q`
+quotes a message
+
+Please make sure that the quotly modules uses the https://lyo.su/quote/generate api which is the official API for quoting purposes.
+"""
+
