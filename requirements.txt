@@ -25,7 +25,4 @@ sqlalchemy==1.4.11
 telethon==1.24.0
 telegraph
 wikipedia
-yt-dlp
-youtube-search-python
-py-tgcalls==0.9.1
-numpy
+fontTools
