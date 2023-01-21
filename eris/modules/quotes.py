@@ -375,6 +375,7 @@ async def replied_user(draw, tot, text, maxlength, title):
                 
 @register(pattern="^/q")
 async def _(event):
+  try:
     if event.fwd_from:
         return
     reply = await event.get_reply_message()
@@ -389,3 +390,7 @@ async def _(event):
     canvas.save('sticker.webp')
     await event.client.send_file(event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id)
     os.remove('sticker.webp')
+        
+  except Exception as e:
+    print(e)
+    return
