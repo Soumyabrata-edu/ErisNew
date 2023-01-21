@@ -1,21 +1,8 @@
 {
    "name" : "Eris bot",
-   "repository": "https://github.com/Soumyabrata-eng/Subhra-Chatterjee",
-    "keywords": [
-      "telegram",
-      "advanced",
-      "group",
-      "manager"
-   ],
+   "repository": "https://github.com/Soumyabrata-eng/erisnew",
+   "keywords": ["telegram", "advanced", "group", "manager" ],
    "stack": "heroku-22",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
    "description": "An Anime themed Telegram group management bot.",
    "env": {
       "ALLOW_EXCL": {
