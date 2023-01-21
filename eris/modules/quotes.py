@@ -12,7 +12,7 @@ async def quotly(bot: Client, message: Message):
         await message.edit("Reply to any users text message")
         return
 
-    await message.edit("```Making a Quote```")
+    await message.edit("Making a Quote")
 
     await message.reply_to_message.forward("@QuotLyBot")
 
@@ -35,7 +35,7 @@ async def quotly(bot: Client, message: Message):
                 return
 
             try:
-                await message.edit("```Making a Quote\nProcessing {}%```".format(progress))
+                await message.edit("Making a Quote\nProcessing {}%".format(progress))
             except:
                 await message.edit("ERROR")
 
@@ -44,9 +44,3 @@ async def quotly(bot: Client, message: Message):
             message.delete(),
             bot.forward_messages(message.chat.id, "@QuotLyBot", msg_id)
         )
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
