@@ -1,3 +1,5 @@
+# imported from Quotly Bot Telegram
+
 import telethon, base64, io
 from requests import exceptions, get, post
 from telethon import  types
@@ -212,11 +214,14 @@ def get_entites(x):
         q.append({"type": type, "offset": y.offset, "length": y.length})
     return q
 
-_mod_name = 'Quotly'
+__mod_name__ = "Quotly"
 
-__help__ = """
+__help__  = """
 -> `/q`
 quotes a message
+
+-> `/q` <color>
+quotes a message in the respective color or hex code
 
 Please make sure that the quotly modules uses the https://lyo.su/quote/generate api which is the official API for quoting purposes.
 """
