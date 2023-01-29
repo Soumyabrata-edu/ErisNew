@@ -12,7 +12,7 @@ class Config(object):
     STRING_SESSION = ""
     API_HASH = "733c7a9e356c9022cee2f2202bff99fe"
     CASH_API_KEY = "V7NS1NBFEL4X24L6"
-    DATABASE_URL = "postgresql://jfzutjnb:6JpoUKMvDyqSGCTOnzny1w1eIpTB5yhi@heffalump.db.elephantsql.com/jfzutjnb"
+    DATABASE_URL = "postgres://azzzbhgv:Go1QT2ZoI6VCirQZ-_cdjjlezvsqfwp0@arjuna.db.elephantsql.com/azzzbhgv"
     EVENT_LOGS = (-1001451724150)
     SUPPORT_CHAT = "bloggerminds" 
     TOKEN = "5334073790:AAGL0NyrccfBKsZ9oXF7yA9BKqccRtcmLEQ"
