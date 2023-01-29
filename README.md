@@ -16,13 +16,12 @@ Can be found on telegram as [Eris](https://t.me/ErisRobot_bot).
 
 > **Note**
 > For music bot, kindly do the changes on <i>_init.py</i> and <i>sample_config.py</i> 
-> <a class='button' href='https://codeload.github.com/Soumyabrata-eng/erisnew/zip/refs/tags/eris'> Release </a>
 
 ## Deploy
 
 The easiest way to deploy bot is through Heroku.
 
-<a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FSoumyabrata-edu%2Ferisnew"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://www.freeplayus.in/p/repository-cloner.html"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 ## Credits
 The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars). <br>
