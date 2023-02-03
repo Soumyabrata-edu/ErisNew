@@ -94,15 +94,13 @@ for module_name in ALL_MODULES:
         USER_SETTINGS[imported_module.__mod_name__.lower()] = imported_module
 
 PM_START_TEXT = """
-Konnichiwa, I am Eris.
-I am an advanced group management bot written in python pyrogram and telethon library.
-Well I hope you would be keen to meet me!
+Konnichiwa, I am Eris. I am an advanced group management bot written in python pyrogram and telethon library.
+Well I hope you would be keen to meet me! Run the /help command to get help over commands.
 
 ✧ Uptime: `{}` 
 ✧ Users Interacted: `{}` 
 ✧ Total Chats:  `{}` 
 
-Run the /help command or use inline help.
 """
 
 HELP_STRINGS = """
@@ -124,10 +122,8 @@ BOT_IMG = "http://tiny.cc/erisnew"
 
 buttons = [
      [
-        InlineKeyboardButton(text="➕ Add Me to your Group! ",url="https://telegram.dog/ErisRobot_bot?startgroup=true")
-     ],
-     [
-        InlineKeyboardButton(text="Support",url="https://t.me/{}".format(SUPPORT_CHAT)),
+        InlineKeyboardButton(text="➕ Add me !",url="https://telegram.dog/ErisRobot_bot?startgroup=true"),
+        InlineKeyboardButton(text="Support",url="https://t.me/{}".format(SUPPORT_CHAT))
      ]
  ]
          
@@ -217,9 +213,9 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.5)
             sr.edit_text("⚡")
             time.sleep(0.5)
-            sr.edit_text("❤")
+            sr.edit_text("🕊")
             time.sleep(0.5)
-            sr.edit_text(" Starting..... ")
+            sr.edit_text("Loading...")
             sr.delete()
             update.effective_message.reply_photo(
                 BOT_IMG,
