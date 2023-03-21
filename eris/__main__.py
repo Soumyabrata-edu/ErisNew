@@ -95,7 +95,7 @@ for module_name in ALL_MODULES:
 
 PM_START_TEXT = """
 Konnichiwa, I am Eris. I am an advanced group management bot written in python pyrogram and telethon library.
-Well I hope you would be keen to meet me! Run the /help command to get help over commands.
+Well I hope you would be keen to meet me! 
 
 ✧ Uptime: `{}` 
 ✧ Users Interacted: `{}` 
@@ -552,12 +552,9 @@ def get_settings(update: Update, context: CallbackContext):
 def donate(update: Update, context: CallbackContext):
     chat = update.effective_chat
     msg = update.effective_message
-    if chat.type == chat.PRIVATE:
-           msg.reply_text("Looks like you're interested in donating me? Please donate my creator instead.", reply_markup=InlineKeyboardMarkup(donate_btn),
-           parse_mode=ParseMode.MARKDOWN)
-    else:
-           # Fixed codacy issue
-           msg.reply_text("Hey I am free to use ! Still you can contribute me here: https://www.paypal.com/paypalme/MadanMohanChatterjee ")
+    msg.reply_text("Looks like you're interested in donating me? Please donate my creator instead.", reply_markup=InlineKeyboardMarkup(donate_btn),
+    parse_mode=ParseMode.MARKDOWN)
+
 
 def migrate_chats(update: Update, context: CallbackContext):
     msg = update.effective_message  # type: Optional[Message]
