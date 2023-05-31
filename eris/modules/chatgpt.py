@@ -19,7 +19,8 @@ def handle_message(update: Update, bot: Bot):
       )
       response_json = response.json()
       bot.send_message(chat_id=update.message.chat_id, text=response_json['choices'][0]['message']['content'])
-   else:
+    
+    else:
       bot.send_message("The given message is not of 10 characters !")
 
         
