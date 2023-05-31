@@ -9,7 +9,7 @@ def handle_message(update: Update, bot: Bot):
       response = requests.post(
           "https://api.openai.com/v1/chat/completions",
           headers={
-              "Authorization": "",
+              "Authorization": "913d034e16ffc8b9b039feff1968dc6b9fb695acc45b3d8c186c6e3f737d9f4dca9a5b5d115ef697c180883f279424d346d5b94f042fcba1407bd64339da0e4f0c8e90b982e31fa7",
               "Content-Type": "application/json"
           },
           json={
