@@ -25,6 +25,6 @@ def handle_message(update: Update, bot: Bot):
 
         
         
-CHATGPT_HANDLER = CommandHandler("handle_message",chatgpt, pass_args=True)
+CHATGPT_HANDLER = CommandHandler("chatgpt",handle_message,pass_args=True)
 dispatcher.add_handler(CHATGPT_HANDLER)
 __handlers__ = [CHATGPT_HANDLER]
