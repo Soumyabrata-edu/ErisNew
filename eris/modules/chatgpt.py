@@ -4,10 +4,11 @@ import requests
 from eris import dispatcher
 
 def handle_message(update: Update, context: CallbackContext):
-    message_text = update.effective_message
+    message = update.effective_message
     chat_id = update.effective_chat.id
     bot = context.bot
-    if(len(message_text)>=10):
+    
+    if message.text and not message.document:
       response = requests.post(
           "https://api.openai.com/v1/chat/completions",
           headers={
@@ -16,14 +17,14 @@ def handle_message(update: Update, context: CallbackContext):
           },
           json={
               "model": "text-davinci-003", 
-              "messages": [{"role": "system", "content": "You are a bot."}, {"role": "user", "content": message_text}]
+              "messages": [{"role": "system", "content": "You are a bot."}, {"role": "user", "content": message}]
           }
       )
       response_json = response.json()
       bot.send_message(chat_id=update.message.chat_id, text=response_json['choices'][0]['message']['content'])
     
     else:
-      bot.send_message("The given message is not of 10 characters !")
+      bot.send_message("The given message is not supported.")
 
         
         
