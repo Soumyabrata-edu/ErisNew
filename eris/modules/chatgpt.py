@@ -1,10 +1,12 @@
 from telegram import Update, Bot
-from telegram.ext import Updater, CommandHandler, RegexHandler
+from telegram.ext import Updater, CommandHandler, RegexHandler, CallbackContext
 import requests 
 from eris import dispatcher
 
-def handle_message(update: Update, bot: Bot):
-    message_text = update.message.text
+def handle_message(update: Update, context: CallbackContext):
+    message_text = update.effective_message
+    chat_id = update.effective_chat.id
+    bot = context.bot
     if(len(message_text)>=10):
       response = requests.post(
           "https://api.openai.com/v1/chat/completions",
