@@ -13,7 +13,7 @@ def handle_chat(message):
     response = requests.get(url)
     ResponseText = response.text
 
-    bot.edit_message_text(ResponseText)
+    bot.send_message(ResponseText)
 
   else:
     bot.send_message("Report errors at @bloggerminds")
