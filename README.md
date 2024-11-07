@@ -48,6 +48,16 @@ Any other authorship/credits can be seen through the commits.
 
 <table>
 <tr><img src="https://i.imgur.com/UhAxVew.jpeg"></tr>
-<tr>Update and some fixes</tr>
+<tr><b>Update and some fixes:</b>
+<br>
+ <li>You might've some trouble installing pillow, try out: <code>pip install wheel && pkg install libjpeg-turbo && pip install pillow</code> </li>
+<li>RateLimit method is for pyrate limiter pyrate-limiter==2.10.0 </li>
+<li>Ptb version must be python-telegram-bot==13.15</li>
+<li>sqlalchemy==1.4.46 should be used.
+</li>
+<li>pyrogram must be installed before psycopg2-binary</li>
+</tr>
+  
+</tr>
   
 </table>
