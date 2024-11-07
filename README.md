@@ -42,3 +42,12 @@ Any other authorship/credits can be seen through the commits.
 <a href="https://t.me/bloggerminds"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" />
 
 <!--[Written by Soumyabrata Mukherjee. Visit blog freeplayus.in]-->
+
+
+# Update 07/11/2024 [Deploy through Termux]
+
+<table>
+<tr><img src="https://i.imgur.com/UhAxVew.jpeg"></tr>
+<tr>Update and some fixes</tr>
+  
+</table>
