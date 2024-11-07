@@ -21,7 +21,7 @@ Can be found on telegram as [Eris](https://t.me/ErisRobot_bot).
 
 The easiest way to deploy bot is through Heroku.
 
-<a href="https://www.freeplayus.in/p/repository-cloner.html"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+But since Heroku is closed now, its best to have a vps and it will work.
 
 ## Credits
 The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars). <br>
